@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3(SCSS+COMPASS) ANNIMATION EXPERIMENT01</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <!--<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>-->
+    <script type="text/javascript" src="jquery-1.9.0.min.js"></script>
+
+
+    <style>
+    body{
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    p#caution{
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        padding: 10px;
+        color: #000;
+        background: rgba(255, 255, 0, 0.5);
+        z-index: 1000;
+    }
+    </style>
+</head>
+<body>
+<p id="caution">
+    MOUSE OVER THE PARTICLE!
+</p>
+<div id="infoContainer">
+    <div class="sentence displaynone" id="item1">Now Item 1</div>
+    <div class="sentence displaynone" id="item2">Now Item 2</div>
+    <div class="sentence displaynone" id="item3">Now Item 3</div>
+    <div class="sentence displaynone" id="item4">Now Item 4</div>
+    <div class="sentence displaynone" id="item5">Now Item 5</div>
+    <div class="sentence displaynone" id="item6">Now Item 6</div>
+    <div class="sentence displaynone" id="item7">Now Item 7</div>
+    <div class="sentence displaynone" id="item8">Now Item 8</div>
+    <div class="sentence displaynone" id="item9">Now Item 9</div>
+    <div class="sentence displaynone" id="item10">Now Item 10</div>
+    <div class="sentence displaynone" id="item11">Now Item 11</div>
+    <div class="sentence displaynone" id="item12">Now Item 12</div>
+    <div class="sentence displaynone" id="item13">Now Item 13</div>
+    <div class="sentence displaynone" id="item14">Now Item 14</div>
+    <div class="sentence displaynone" id="item15">Now Item 15</div>
+    <div class="sentence displaynone" id="item16">Now Item 16</div>
+    <div class="sentence displaynone" id="item17">Now Item 17</div>
+    <div class="sentence displaynone" id="item18">Now Item 18</div>
+    <div class="sentence displaynone" id="item19">Now Item 19</div>
+    <div class="sentence displaynone" id="item20">Now Item 20</div>
+    <div class="sentence displaynone" id="item21">Now Item 21</div>
+    <div class="sentence displaynone" id="item22">Now Item 22</div>
+    <div class="sentence displaynone" id="item23">Now Item 23</div>
+    <div class="sentence displaynone" id="item24">Now Item 24</div>
+    <div class="sentence displaynone" id="item25">Now Item 25</div>
+    <div class="sentence displaynone" id="item26">Now Item 26</div>
+    <div class="sentence displaynone" id="item27">Now Item 27</div>
+    <div class="sentence displaynone" id="item28">Now Item 28</div>
+    <div class="sentence displaynone" id="item29">Now Item 29</div>
+    <div class="sentence displaynone" id="item30">Now Item 30</div>
+    <div class="sentence displaynone" id="item31">Now Item 31</div>
+    <div class="sentence displaynone" id="item32">Now Item 32</div>
+    <div class="sentence displaynone" id="item33">Now Item 33</div>
+    <div class="sentence displaynone" id="item34">Now Item 34</div>
+    <div class="sentence displaynone" id="item35">Now Item 35</div>
+    <div class="sentence displaynone" id="item36">Now Item 36</div>
+    <div class="sentence displaynone" id="item37">Now Item 37</div>
+    <div class="sentence displaynone" id="item38">Now Item 38</div>
+    <div class="sentence displaynone" id="item39">Now Item 39</div>
+    <div class="sentence displaynone" id="item40">Now Item 40</div>
+    <div class="sentence displaynone" id="item41">Now Item 41</div>
+    <div class="sentence displaynone" id="item42">Now Item 42</div>
+    <div class="sentence displaynone" id="item43">Now Item 43</div>
+    <div class="sentence displaynone" id="item44">Now Item 44</div>
+    <div class="sentence displaynone" id="item45">Now Item 45</div>
+    <div class="sentence displaynone" id="item46">Now Item 46</div>
+    <div class="sentence displaynone" id="item47">Now Item 47</div>
+    <div class="sentence displaynone" id="item48">Now Item 48</div>
+    <div class="sentence displaynone" id="item49">Now Item 49</div>
+    <div class="sentence displaynone" id="item50">Now Item 50</div>
+    <div class="sentence displaynone" id="item51">Now Item 51</div>
+    <div class="sentence displaynone" id="item52">Now Item 52</div>
+    <div class="sentence displaynone" id="item53">Now Item 53</div>
+    <div class="sentence displaynone" id="item54">Now Item 54</div>
+    <div class="sentence displaynone" id="item55">Now Item 55</div>
+</div>
+
+<div id="wrapper">
+    <div id="circleContainer">
+        <div class="circle" id="test1"></div>
+        <div class="circle" id="test2"></div>
+        <div class="circle" id="test3"></div>
+        <div class="circle" id="test4"></div>
+        <div class="circle" id="test5"></div>
+        <div class="circle" id="test6"></div>
+        <div class="circle" id="test7"></div>
+        <div class="circle" id="test8"></div>
+        <div class="circle" id="test9"></div>
+        <div class="circle" id="test10"></div>
+        <div class="circle" id="test11"></div>
+        <div class="circle" id="test12"></div>
+        <div class="circle" id="test13"></div>
+        <div class="circle" id="test14"></div>
+        <div class="circle" id="test15"></div>
+        <div class="circle" id="test16"></div>
+        <div class="circle" id="test17"></div>
+        <div class="circle" id="test18"></div>
+        <div class="circle" id="test19"></div>
+        <div class="circle" id="test20"></div>
+        <div class="circle" id="test21"></div>
+        <div class="circle" id="test22"></div>
+        <div class="circle" id="test23"></div>
+        <div class="circle" id="test24"></div>
+        <div class="circle" id="test25"></div>
+        <div class="circle" id="test26"></div>
+        <div class="circle" id="test27"></div>
+        <div class="circle" id="test28"></div>
+        <div class="circle" id="test29"></div>
+        <div class="circle" id="test30"></div>
+        <div class="circle" id="test31"></div>
+        <div class="circle" id="test32"></div>
+        <div class="circle" id="test33"></div>
+        <div class="circle" id="test34"></div>
+        <div class="circle" id="test35"></div>
+        <div class="circle" id="test36"></div>
+        <div class="circle" id="test37"></div>
+        <div class="circle" id="test38"></div>
+        <div class="circle" id="test39"></div>
+        <div class="circle" id="test40"></div>
+        <div class="circle" id="test41"></div>
+        <div class="circle" id="test42"></div>
+        <div class="circle" id="test43"></div>
+        <div class="circle" id="test44"></div>
+        <div class="circle" id="test45"></div>
+        <div class="circle" id="test46"></div>
+        <div class="circle" id="test47"></div>
+        <div class="circle" id="test48"></div>
+        <div class="circle" id="test49"></div>
+        <div class="circle" id="test50"></div>
+        <div class="circle" id="test51"></div>
+        <div class="circle" id="test52"></div>
+        <div class="circle" id="test53"></div>
+        <div class="circle" id="test54"></div>
+        <div class="circle" id="test55"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    (function(){
+        var hoverCircle = "";
+        $("div.circle").mouseover(function(){
+
+            if($(hoverCircle).hasClass("display")){
+                $(hoverCircle).removeClass("display").addClass("displaynone");
+            }
+
+            hoverCircle = "div#item" + $(this).attr("id").substr(4);
+
+            if($(hoverCircle).hasClass("displaynone")){
+                $(hoverCircle).removeClass("displaynone").addClass("display");
+            }
+        });
+
+    })();
+</script>
+</body>
+</html>

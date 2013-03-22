@@ -1,0 +1,512 @@
+@for $val from 0 through 100{
+	$caledX: ***update***;
+	$caledY: ***update***;
+	$caledZ: ***update***;
+	$caledscaleVal: ***update***;
+
+		@if $val == 0{
+
+			0%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 1{
+
+			1%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 2{
+
+			2%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 3{
+
+			3%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 4{
+
+			4%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 5{
+
+			5%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 6{
+
+			6%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 7{
+
+			7%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 8{
+
+			8%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 9{
+
+			9%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 10{
+
+			10%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 11{
+
+			11%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 12{
+
+			12%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 13{
+
+			13%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 14{
+
+			14%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 15{
+
+			15%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 16{
+
+			16%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 17{
+
+			17%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 18{
+
+			18%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 19{
+
+			19%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 20{
+
+			20%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 21{
+
+			21%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 22{
+
+			22%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 23{
+
+			23%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 24{
+
+			24%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 25{
+
+			25%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 26{
+
+			26%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 27{
+
+			27%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 28{
+
+			28%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 29{
+
+			29%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 30{
+
+			30%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 31{
+
+			31%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 32{
+
+			32%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 33{
+
+			33%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 34{
+
+			34%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 35{
+
+			35%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 36{
+
+			36%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 37{
+
+			37%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 38{
+
+			38%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 39{
+
+			39%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 40{
+
+			40%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 41{
+
+			41%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 42{
+
+			42%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 43{
+
+			43%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 44{
+
+			44%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 45{
+
+			45%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 46{
+
+			46%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 47{
+
+			47%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 48{
+
+			48%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 49{
+
+			49%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 50{
+
+			50%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 51{
+
+			51%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 52{
+
+			52%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 53{
+
+			53%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 54{
+
+			54%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 55{
+
+			55%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 56{
+
+			56%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 57{
+
+			57%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 58{
+
+			58%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 59{
+
+			59%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 60{
+
+			60%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 61{
+
+			61%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 62{
+
+			62%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 63{
+
+			63%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 64{
+
+			64%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 65{
+
+			65%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 66{
+
+			66%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 67{
+
+			67%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 68{
+
+			68%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 69{
+
+			69%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 70{
+
+			70%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 71{
+
+			71%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 72{
+
+			72%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 73{
+
+			73%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 74{
+
+			74%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 75{
+
+			75%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 76{
+
+			76%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 77{
+
+			77%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 78{
+
+			78%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 79{
+
+			79%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 80{
+
+			80%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 81{
+
+			81%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 82{
+
+			82%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 83{
+
+			83%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 84{
+
+			84%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 85{
+
+			85%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 86{
+
+			86%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 87{
+
+			87%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 88{
+
+			88%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 89{
+
+			89%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 90{
+
+			90%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 91{
+
+			91%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 92{
+
+			92%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 93{
+
+			93%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 94{
+
+			94%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 95{
+
+			95%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 96{
+
+			96%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 97{
+
+			97%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 98{
+
+			98%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 99{
+
+			99%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+		@else if $val == 100{
+
+			100%{@include transform( translate3d( $caledX, $caledY, $caledZ) scale($caledscaleVal));}
+
+		}
+}

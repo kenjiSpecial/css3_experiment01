@@ -1,0 +1,70 @@
+@if $val1 == 1{
+	$P_Y: ($randomVal3 - $randomVal2) - ($randomVal0 - $randomVal1);
+	$Q_Y: ($randomVal0 - $randomVal1) - $P_Y;
+	$R_Y: $randomVal2 - $randomVal1;
+	$S_Y: $randomVal1;
+}
+
+@if $val1 == 2{
+	$P_Y: ($randomVal4 - $randomVal3) - ($randomVal1 - $randomVal2);
+	$Q_Y: ($randomVal1 - $randomVal2) - $P_Y;
+	$R_Y: $randomVal3 - $randomVal2;
+	$S_Y: $randomVal2;
+}
+
+@if $val1 == 3{
+	$P_Y: ($randomVal5 - $randomVal4) - ($randomVal2 - $randomVal3);
+	$Q_Y: ($randomVal2 - $randomVal3) - $P_Y;
+	$R_Y: $randomVal4 - $randomVal3;
+	$S_Y: $randomVal3;
+}
+
+@if $val1 == 4{
+	$P_Y: ($randomVal6 - $randomVal5) - ($randomVal3 - $randomVal4);
+	$Q_Y: ($randomVal3 - $randomVal4) - $P_Y;
+	$R_Y: $randomVal5 - $randomVal4;
+	$S_Y: $randomVal4;
+}
+
+@if $val1 == 5{
+	$P_Y: ($randomVal7 - $randomVal6) - ($randomVal4 - $randomVal5);
+	$Q_Y: ($randomVal4 - $randomVal5) - $P_Y;
+	$R_Y: $randomVal6 - $randomVal5;
+	$S_Y: $randomVal5;
+}
+
+@if $val1 == 6{
+	$P_Y: ($randomVal8 - $randomVal7) - ($randomVal5 - $randomVal6);
+	$Q_Y: ($randomVal5 - $randomVal6) - $P_Y;
+	$R_Y: $randomVal7 - $randomVal6;
+	$S_Y: $randomVal6;
+}
+
+@if $val1 == 7{
+	$P_Y: ($randomVal9 - $randomVal8) - ($randomVal6 - $randomVal7);
+	$Q_Y: ($randomVal6 - $randomVal7) - $P_Y;
+	$R_Y: $randomVal8 - $randomVal7;
+	$S_Y: $randomVal7;
+}
+
+@if $val1 == 8{
+	$P_Y: ($randomVal10 - $randomVal9) - ($randomVal7 - $randomVal8);
+	$Q_Y: ($randomVal7 - $randomVal8) - $P_Y;
+	$R_Y: $randomVal9 - $randomVal8;
+	$S_Y: $randomVal8;
+}
+
+@if $val1 == 9{
+	$P_Y: ($randomVal11 - $randomVal10) - ($randomVal8 - $randomVal9);
+	$Q_Y: ($randomVal8 - $randomVal9) - $P_Y;
+	$R_Y: $randomVal10 - $randomVal9;
+	$S_Y: $randomVal9;
+}
+
+@if $val1 == 10{
+	$P_Y: ($randomVal12 - $randomVal11) - ($randomVal9 - $randomVal10);
+	$Q_Y: ($randomVal9 - $randomVal10) - $P_Y;
+	$R_Y: $randomVal11 - $randomVal10;
+	$S_Y: $randomVal10;
+}
+
