@@ -16,10 +16,10 @@ html, body {
 /* line 21, style.scss */
 div#infoContainer {
   position: absolute;
-  width: 200px;
+  width: 120px;
   height: 60px;
-  top: 30px;
-  left: 30px;
+  top: 80px;
+  right: 30px;
   z-index: 100;
 }
 /* line 31, style.scss */
